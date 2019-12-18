@@ -39,6 +39,16 @@ To make use of this tool, the data files should be inserted in the Data folder. 
 
 [TO BE DONE]
 
+## Acknowledgements
+
+This work was developed within the scope of the ARADyAL network, within the IdISSC institute at Hospital Clínico San Carlos (Spain).
+
+www.idissc.org
+
+[LOGO ARADYAL]
+
+
+
 ## Rename this repository to publish your site
 
 We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
