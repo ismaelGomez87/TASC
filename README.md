@@ -1,18 +1,32 @@
-# Welcome to GitHub
+# A Tool for Allergy Severity Scoring (TASC)
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+In this repository, we introduce a tool to score allergic reactions on the basis of their symptoms. This tool was developed and validated under the scope of food allergic reactions, but should be applicable to any allergic reaction.
 
-## Repositories
+## Requirements
 
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
+This tool was developed under R version 3.2.2, and tested under versions up to 3.6.1. RStudio is not needed but recommended for its use. You can download R and RStudio for free from the following links:
 
-This repository contains three important files: The HTML code for your first website on GitHub, the CSS stylesheet that decorates your website with colors and fonts, and the **README** file. It also contains an image folder, with one image file.
+https://cran.r-project.org/bin/
+https://rstudio.com/
 
-## Describe your project
+## General description
 
-You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
 
-[Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
+
+## User guide
+
+The TASC software tool is written in R, and can be executed using this software. Instead of working as an R repository available for download and install as an R package, this tool should be used independently. 
+
+The TASC tool exploits the property of R of variables being inherited by sub-environments. This way, key variables for computation can be defined in an external file. There, the user can describe his/her database names, allowing the TASC tool to identify them and use them internally. In this way, datasets with different symptoms defined can be analyzed with help of this tool, just by specifying key aspects such as the symptoms, systems associated to those symptoms, exponents and weights. In case you don't know what exponents to use, we recommend sticking to the values predefined on the intial work, that can be found in here.
+
+[PENDING - LINK to paper].
+
+The TASC tool will take an input file, that can be in the following formats: .xls, .csv, .dta (STATA), .sav (SPSS), and will return the following:
+- A new file (.csv) with recoded symptoms (will keep the original values) and the nFASS, oFASS-5 and oFASS-3 scores.
+- A population descriptive (in the Results/1\ -\ DatabaseDescriptive folder).
+- A descriptive of severity of the population (in the Results/5\ -\ SeverityStudies folder).
+...
+
 
 ## Your first website
 
