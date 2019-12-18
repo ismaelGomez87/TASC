@@ -45,7 +45,7 @@ This work was developed within the scope of the ARADyAL network, within the IdIS
 
 www.idissc.org
 
-[LOGO ARADYAL]
+<img src="https://github.com/ismaelGomez87/TASC/blob/master/images/Logo_aradyal.jpg">
 
 
 
