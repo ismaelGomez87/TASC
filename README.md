@@ -7,6 +7,7 @@ In this repository, we introduce a tool to score allergic reactions on the basis
 This tool was developed under R version 3.2.2, and tested under versions up to 3.6.1. RStudio is not needed but recommended for its use. You can download R and RStudio for free from the following links:
 
 https://cran.r-project.org/bin/
+
 https://rstudio.com/
 
 ## General description
