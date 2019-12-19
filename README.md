@@ -1,6 +1,6 @@
 # A Tool for Allergy Severity Scoring (TASC)
 
-In this repository, we introduce a tool to score allergic reactions on the basis of their symptoms. This tool was developed and validated under the scope of food allergic reactions, but should be applicable to any allergic reaction.
+In this repository, we introduce a tool to score allergic reactions on the basis of their symptoms. This tool was developed and validated under the scope of food allergic reactions, and it is in the process of been validated to allergic reactions elicited by other triggers.
 
 ## Requirements
 
@@ -23,7 +23,7 @@ The TASC software tool is written in R, and can be executed using this software.
 
 The TASC tool reads files written in table format. The main format is .csv, but it supports other formats (see below). Symptoms should be encoded in binary variables, with one value indicating the presence of the symptom and other value indicating its absence. If symptoms are graded in levels of intensity, the data should be converted to binary form before it's provided to the tool. There is no need to have specific variables indicating which organs are affected. This information is tied to the symptoms and has to be specified to the program as indicated below.
 
-The TASC tool exploits the property of R of variables being inherited by sub-environments. This way, key variables for computation can be defined in an external file. There, the user can describe his/her database names, allowing the TASC tool to identify them and use them internally. In this way, datasets with different symptoms defined can be analyzed with help of this tool, just by specifying key aspects such as the symptoms, systems associated to those symptoms, exponents and weights. In case you don't know what exponents to use, we recommend sticking to the values predefined on the intial work, that can be found in here.
+The TASC tool exploits the property of R of variables being inherited by sub-environments. This way, key variables for computation can be defined in an external file. There, the user can describe his/her database names, allowing the TASC tool to identify them and use them internally. In this way, datasets with different symptoms defined can be analyzed with help of this tool, just by specifying key aspects such as the symptoms, systems associated to those symptoms, exponents and weights. In case you don't know what exponents to use, we recommend sticking to the values predefined on the initial work, that can be found in here.
 
 [PENDING - LINK to paper].
 
